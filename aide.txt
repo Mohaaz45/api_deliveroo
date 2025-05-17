@@ -1,0 +1,6 @@
+node webhook.js
+
+ngrok http {numero_de_port} --> récupérer {adresse_http}
+
+Sur l'api deliveroo puis dans webhooks mettre l'adresse suivante : {adresse_http}/webhook/orders
+
